@@ -1,0 +1,27 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "cucmerber frame work",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor jsfiles/configuration.js",
+    "cucumbertest": "protractor jsfiles/cucumber1config.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/build/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "satya",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "typescript": "~3.9.6",
+    "jasmine": "3.5.0",
+    "@types/jasmine": "~3.5.11",
+    "@types/jasminewd2": "~2.0.8",
+    "ts-node": "^8.10.2",
+    "@types/node": "^14.0.14",
+    "protractor-cucumber-framework": "^6.2.1",
+    "cucumber": "^6.0.5",
+    "@types/cucumber": "^6.0.1"
+  }
+}
